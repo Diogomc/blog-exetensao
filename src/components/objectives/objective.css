@@ -1,0 +1,47 @@
+.titles{
+    padding: 50px;
+}
+.title-objective{
+    text-align: center;
+    font-size: 3rem;
+}
+.image-objective{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    padding: 2px;
+    border-radius: 10px 10px 0 0;
+}
+.image-objective:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+#person{
+    object-position: top;
+}
+.container-objectives{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: #cccc;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+.text-on{
+    display: block;
+}
+.text-off{
+    display: none;
+}
+@media screen and (max-width: 480px) {
+    .container-objectives{
+        flex-direction: column;
+    }
+    .image-objective:hover{
+        opacity: 1;
+    }
+}
