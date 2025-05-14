@@ -1,0 +1,30 @@
+.about-project{
+    margin-top: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-title{
+    font-size: 3rem;
+    padding: 10px;
+}
+.container-text-about{
+    width: 100%;
+    display: flex;
+}
+.text-about{
+    width: 60%;
+    padding: 30px;
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 480px) {
+    .container-text-about{
+        flex-direction: column;
+        width: 100%;
+    }
+    .text-about{
+        width: 100%;
+    }
+}
